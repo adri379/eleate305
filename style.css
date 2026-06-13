@@ -6,3 +6,10 @@ nav a{margin:0 12px;color:#6aaed6;text-decoration:none;font-weight:bold;}
 section{padding:50px 10%;}
 .card{background:#f4fbff;padding:25px;border-radius:20px;}
 footer{background:#dff4ff;padding:20px;text-align:center;}
+
+:root{
+--green1:#1b4332;--green2:#2d6a4f;--green3:#40916c;--green4:#74c69d;
+}
+body{background:#f7fff8;}
+nav,header{background:linear-gradient(135deg,var(--green1),var(--green2));}
+button,a.btn{border-radius:12px;}
