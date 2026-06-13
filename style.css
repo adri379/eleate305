@@ -1,0 +1,8 @@
+
+body{font-family:Poppins,sans-serif;margin:0;background:white;color:#4b6584;}
+header{background:#dff4ff;padding:40px;text-align:center;}
+nav{text-align:center;padding:15px;}
+nav a{margin:0 12px;color:#6aaed6;text-decoration:none;font-weight:bold;}
+section{padding:50px 10%;}
+.card{background:#f4fbff;padding:25px;border-radius:20px;}
+footer{background:#dff4ff;padding:20px;text-align:center;}
