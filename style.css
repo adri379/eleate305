@@ -1,21 +1,21 @@
 body {
 margin: 0;
 font-family: "Poppins", sans-serif;
-background: #f5f7fb;
+background: #f4f7fb;
 color: #1f2937;
 }
 
-/* HEADER (clean modern banner) */
+/* HEADER */
 header {
 text-align: center;
-padding: 50px 20px;
-background: linear-gradient(135deg, #2563eb, #22c55e);
+padding: 60px 20px;
+background: linear-gradient(135deg, #1e3a8a, #22c55e);
 color: white;
 }
 
 header h1 {
 margin: 0;
-font-size: 42px;
+font-size: 46px;
 }
 
 header p {
@@ -23,7 +23,7 @@ margin-top: 10px;
 opacity: 0.9;
 }
 
-/* NAV BAR (clean pill buttons) */
+/* NAV */
 nav {
 display: flex;
 flex-wrap: wrap;
@@ -33,44 +33,73 @@ padding: 15px;
 background: white;
 position: sticky;
 top: 0;
-box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+z-index: 1000;
+box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
 nav a {
 text-decoration: none;
 padding: 10px 14px;
 border-radius: 999px;
-background: #f3f4f6;
+background: #f1f5f9;
 color: #111827;
 font-weight: 500;
 transition: 0.2s;
 }
 
 nav a:hover {
-background: #2563eb;
+background: #1e3a8a;
 color: white;
 }
 
-/* MAIN CARD AREA */
+/* DASHBOARD GRID (THIS IS THE BIG CHANGE) */
 section {
 display: flex;
 justify-content: center;
-padding: 50px 20px;
+padding: 40px 20px;
 }
 
+/* CARD GRID LOOK */
 .card {
 background: white;
-padding: 30px;
+padding: 25px;
 border-radius: 16px;
-max-width: 800px;
 width: 100%;
-box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+max-width: 900px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* ADD DASHBOARD “BLOCK STYLE” INSIDE CARD */
+.card h2 {
+color: #1e3a8a;
+}
+
+/* OPTIONAL GRID STYLE (if you add more cards later) */
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+margin-top: 20px;
+}
+
+.block {
+background: #f8fafc;
+padding: 15px;
+border-radius: 12px;
+border: 1px solid #e5e7eb;
+transition: 0.2s;
+}
+
+.block:hover {
+transform: translateY(-3px);
+background: white;
+box-shadow: 0 8px 20px rgba(0,0,0,0.06);
 }
 
 /* FOOTER */
 footer {
 text-align: center;
-padding: 35px;
+padding: 40px;
 background: #0f172a;
 color: white;
 }
@@ -83,8 +112,3 @@ background: #22c55e;
 color: white;
 border-radius: 999px;
 text-decoration: none;
-}
-
-.portfolio-link:hover {
-background: #16a34a;
-}
