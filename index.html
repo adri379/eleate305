@@ -1,94 +1,65 @@
-body {
-margin: 0;
-font-family: 'Poppins', Arial, sans-serif;
-background: linear-gradient(to bottom, #f4fff8, #e8f5ff);
-color: #1f2a37;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-/* HEADER */
-.site-header {
-text-align: center;
-padding: 40px 20px;
-background: white;
-border-bottom: 1px solid #e5e7eb;
-}
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.site-header h1 {
-margin: 0;
-font-size: 40px;
-color: #2e7d32;
-}
+<title>Elevate305 | Florida Student Resource Hub</title>
 
-.site-header p {
-margin-top: 10px;
-font-size: 16px;
-color: #6b7280;
-}
+<meta name="description" content="A Florida student resource hub connecting students with internships, schools, jobs, and support resources in one place. It also includes a space for digital portfolios.">
+<meta name="author" content="Adrianna Smith">
 
-/* NAVBAR */
-.navbar {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 10px;
-padding: 15px;
-background: #ffffff;
-position: sticky;
-top: 0;
-border-bottom: 1px solid #e5e7eb;
-}
+<!-- CSS LINK (FIXED) -->
+<link rel="stylesheet" href="./style.css">
 
-.navbar a {
-text-decoration: none;
-padding: 10px 14px;
-border-radius: 10px;
-color: #1f2a37;
-background: #f3f4f6;
-transition: 0.2s ease;
+<!-- Schema -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "WebSite",
+"name": "Elevate305",
+"url": "https://yourdomain.com",
+"description": "A student resource hub for Florida students.",
+"inLanguage": "en"
 }
+</script>
+</head>
 
-.navbar a:hover {
-background: #2e7d32;
-color: white;
-transform: scale(1.05);
-}
+<body>
 
-/* MAIN CONTENT */
-.content {
-display: flex;
-justify-content: center;
-padding: 40px 20px;
-}
+<header class="site-header">
+<h1>Elevate305</h1>
+<p>Rising Together, Reaching Higher</p>
+</header>
 
-.card {
-background: white;
-padding: 25px;
-border-radius: 16px;
-box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-max-width: 700px;
-width: 100%;
-text-align: center;
-}
+<nav class="navbar">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="scholarships.html">Scholarships</a>
+<a href="parents.html">Parents</a>
+<a href="internships.html">Internships</a>
+<a href="spotlight.html">Student Highlights</a>
+<a href="jobs.html">Jobs</a>
+<a href="schools.html">Schools</a>
+</nav>
 
-/* FOOTER */
-.site-footer {
-text-align: center;
-padding: 30px;
-margin-top: 40px;
-background: white;
-border-top: 1px solid #e5e7eb;
-}
+<section class="content">
+<div class="card">
+<h2>Welcome</h2>
+<p>Explore internships, scholarships, schools, and opportunities designed for Florida students.</p>
+</div>
+</section>
 
-.portfolio-link {
-display: inline-block;
-margin-top: 10px;
-padding: 10px 15px;
-background: #2e7d32;
-color: white;
-border-radius: 10px;
-text-decoration: none;
-}
+<footer class="site-footer">
+<p>© Created by Adrianna Smith</p>
 
-.portfolio-link:hover {
-background: #256428;
-}
+<a href="https://www.instagram.com/smith.adriii?igsh=MXJseWRtaXppcm5tMQ%3D%3D&utm_source=qr"
+target="_blank"
+class="portfolio-link">
+📸 Digital Portfolio
+</a>
+</footer>
+
+</body>
+</html>
